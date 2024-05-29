@@ -1,0 +1,42 @@
+name: face_auth
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_face_api: ^4.1.1
+  image_picker: ^0.8.6
+  firebase_core: ^2.5.0
+  cloud_firestore: ^4.4.0
+  uuid: ^3.0.7
+  google_mlkit_face_detection: ^0.5.0
+  audioplayers: ^3.0.1
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/success.mp3
+    - assets/failed.mp3
+    - assets/scan_beep.wav
+

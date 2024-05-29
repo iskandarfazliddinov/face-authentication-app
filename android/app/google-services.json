@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681076508892",
+    "project_id": "faceauth-5a652",
+    "storage_bucket": "faceauth-5a652.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681076508892:android:2a32a355ee2b0f0e760c19",
+        "android_client_info": {
+          "package_name": "com.example.face_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPVo5sWOGNNLWxQaDID0LuWAq4Y0BLyd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681076508892:android:399b4811fd893b0c760c19",
+        "android_client_info": {
+          "package_name": "com.example.face_recognize"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPVo5sWOGNNLWxQaDID0LuWAq4Y0BLyd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
